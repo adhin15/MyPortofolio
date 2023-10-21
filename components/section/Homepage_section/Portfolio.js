@@ -15,11 +15,14 @@ const Portfolio = () => {
               <img src="./assets/ressambas.png" />
               <p className="text-sm text-[#FF7700] text-center my-3">https://ressambas.kalbar.polri.go.id</p>
               <div className="px-4 text-center">
-                <button className="text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full max-w-[200px]">
-                  <a href="https://ressambas.kalbar.polri.go.id" target="_blank" rel="noreferrer">
-                    Visit
-                  </a>
-                </button>
+                <a
+                  className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer"
+                  href="https://ressambas.kalbar.polri.go.id"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit
+                </a>
               </div>
             </div>
           </div>
@@ -30,11 +33,14 @@ const Portfolio = () => {
               <img src="./assets/btn-properti.png" />
               <p className="text-sm text-[#FF7700] text-center my-3">https://www.btnproperti.co.id</p>
               <div className="px-4 text-center">
-                <button className="text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full max-w-[200px]">
-                  <a href="https://www.btnproperti.co.id" target="_blank" rel="noreferrer">
-                    Visit
-                  </a>
-                </button>
+                <a
+                  className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer"
+                  href="https://www.btnproperti.co.id"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit
+                </a>
               </div>
             </div>
           </div>
@@ -49,11 +55,14 @@ const Portfolio = () => {
             <img src="./assets/pokemon-dexter.png" />
             <p className="text-sm text-[#FF7700] text-center my-3">https://pokemon-dexter.vercel.app</p>
             <div className="px-4 text-center">
-              <button className="text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full max-w-[200px]">
-                <a href="https://pokemon-dexter.vercel.app" target="_blank" rel="noreferrer">
-                  Visit
-                </a>
-              </button>
+              <a
+                className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer"
+                href="https://pokemon-dexter.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visit
+              </a>
             </div>
           </div>
           {/* -------------------------------------- */}
