@@ -16,7 +16,7 @@ const Portfolio = () => {
               <p className="text-sm text-[#FF7700] text-center my-3">https://ressambas.kalbar.polri.go.id</p>
               <div className="px-4 text-center">
                 <button className="text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full max-w-[200px]">
-                  <a href="https://ressambas.kalbar.polri.go.id" target="_blank">
+                  <a href="https://ressambas.kalbar.polri.go.id" target="_blank" rel="noreferrer">
                     Visit
                   </a>
                 </button>
@@ -31,7 +31,7 @@ const Portfolio = () => {
               <p className="text-sm text-[#FF7700] text-center my-3">https://www.btnproperti.co.id</p>
               <div className="px-4 text-center">
                 <button className="text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full max-w-[200px]">
-                  <a href="https://www.btnproperti.co.id" target="_blank">
+                  <a href="https://www.btnproperti.co.id" target="_blank" rel="noreferrer">
                     Visit
                   </a>
                 </button>
@@ -50,7 +50,7 @@ const Portfolio = () => {
             <p className="text-sm text-[#FF7700] text-center my-3">https://pokemon-dexter.vercel.app</p>
             <div className="px-4 text-center">
               <button className="text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full max-w-[200px]">
-                <a href="https://pokemon-dexter.vercel.app" target="_blank">
+                <a href="https://pokemon-dexter.vercel.app" target="_blank" rel="noreferrer">
                   Visit
                 </a>
               </button>

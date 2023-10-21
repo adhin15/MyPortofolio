@@ -9,7 +9,7 @@ const Aboutme = () => {
           <img src="./assets/man-coding.png" className=" h-[280px] m-auto" />
           <div className="flex justify-center mt-4">
             <span className="mx-2 text-[#FF7700]">
-              <a href="https://wa.me/6281343042162" target="_blank">
+              <a href="https://wa.me/6281343042162" target="_blank" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -37,7 +37,7 @@ const Aboutme = () => {
               </a>
             </span>
             <span className="mx-2 text-[#FF7700]">
-              <a href="https://www.linkedin.com/in/adhin-alifarchan/" target="_blank">
+              <a href="https://www.linkedin.com/in/adhin-alifarchan/" target="_blank" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
