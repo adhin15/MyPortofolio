@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Circles = () =>{
   const [active,setActive] = useState(false)
     return(
-        <div className="main-container">
+        <div className="main-container" id="circle container">
         <div className={`logo-container ${active ? 'active' : ''}`} >
           <div className="main-logo text-center">
             <img src="./logo/skill-logo.png" onClick={()=>{setActive(!active)}} style={{ width: "100%" }} />

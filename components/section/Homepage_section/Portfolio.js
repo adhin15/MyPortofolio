@@ -2,8 +2,8 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <>
-      <div className="container p-8 w-full flex flex-wrap" id="portfolio-section">
+    <div id="portfolio-section" className="pt-16">
+      <div className="container p-8 w-full flex flex-wrap">
         <h3 className="text-4xl w-full text-[#FF7700] font-bold mb-6">My Portfolio</h3>
 
         {/* -----------------Formal Projects----------------- */}
@@ -59,7 +59,7 @@ const Portfolio = () => {
           {/* -------------------------------------- */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
