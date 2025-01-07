@@ -12,20 +12,18 @@ const Portfolio = () => {
           {/* -----------------card----------------- */}
           <div className="p-3 pl-0 max-w-[350px]">
             <div className="p-2 rounded-lg bg-[#2A2550] h-[300px] m-3 ml-0" id="website-card">
-              <img src="./assets/ressambas.png" />
-              <p className="text-sm text-[#FF7700] text-center my-3">https://ressambas.kalbar.polri.go.id</p>
-              <div className="px-4 text-center">
-                <a
-                  className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer"
-                  href="https://ressambas.kalbar.polri.go.id"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visit
-                </a>
-              </div>
+              <a href="https://ressambas.kalbar.polri.go.id" target="_blank" rel="noreferrer">
+                <img src="./assets/ressambas.png" />
+                <p className="text-sm text-[#FF7700] text-center my-3">https://ressambas.kalbar.polri.go.id</p>
+                <div className="px-4 text-center">
+                  <p className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer">
+                    Visit
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
+
           {/* -------------------------------------- */}
           {/* -----------------card----------------- */}
           <div className="p-3 pl-0 max-w-[350px]">
@@ -52,18 +50,27 @@ const Portfolio = () => {
           <h3 className="text-2xl w-full text-[#FFFFFF] font-bold mb-4">Private Projects</h3>
           {/* -----------------card----------------- */}
           <div className="p-2 rounded-lg bg-[#2A2550] max-w-[350px] h-[300px] m-3 ml-0" id="website-card">
-            <img src="./assets/pokemon-dexter.png" />
-            <p className="text-sm text-[#FF7700] text-center my-3">https://pokemon-dexter.vercel.app</p>
-            <div className="px-4 text-center">
-              <a
-                className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer"
-                href="https://pokemon-dexter.vercel.app"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit
-              </a>
-            </div>
+            <a href="https://pokemon-dexter.vercel.app" target="_blank" rel="noreferrer">
+              <img src="./assets/pokemon-dexter.png" />
+              <p className="text-sm text-[#FF7700] text-center my-3">https://pokemon-dexter.vercel.app</p>
+              <div className="px-4 text-center">
+                <p className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer">
+                  Visit
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div className="p-2 rounded-lg bg-[#2A2550] max-w-[350px] h-[300px] m-3 ml-0" id="website-card">
+            <a href="https://mo-flixx.vercel.app" target="_blank" rel="noreferrer">
+              <img src="./assets/moflix.png" />
+              <p className="text-sm text-[#FF7700] text-center my-3">https://mo-flixx.vercel.app</p>
+              <div className="px-4 text-center">
+                <p className="block text-xs bg-[#FF7700] font-bold rounded-lg p-2 px-5 w-full m-auto max-w-[200px] cursor-pointer">
+                  Visit
+                </p>
+              </div>
+            </a>
           </div>
           {/* -------------------------------------- */}
         </div>
