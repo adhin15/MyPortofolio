@@ -13,7 +13,7 @@ export default function Home() {
         <title>Adhin Alifarchan - My Works</title>
         <meta name="description" content="Welcome to Adhin's page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="./assets/moflix.jpg" />
+        <meta name="image" content="https://adhin.vercel.app/assets/moflix.jpg" />
         <link rel="icon" href="/logo/a-logo.png" />
         <link rel="stylesheet" href="/style.scss" />
         <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
