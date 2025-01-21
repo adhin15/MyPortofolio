@@ -10,6 +10,11 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta property="og:url" content="https://adhin.vercel.app/" />
+        <meta property="og:type" content="Website" />
+        <meta property="og:site_name" content="Adhin Alifarchan - My Works" />
+        <meta property="og:title" content="Adhin Alifarchan - My Works" />
+        <meta property="og:description" content="Welcome to Adhin's page" />
         <title>Adhin Alifarchan - My Works</title>
         <meta name="description" content="Welcome to Adhin's page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
