@@ -15,6 +15,8 @@ export default function Home() {
         <meta property="og:site_name" content="Adhin Alifarchan - My Works" />
         <meta property="og:title" content="Adhin Alifarchan - My Works" />
         <meta property="og:description" content="Welcome to Adhin's page" />
+        <meta property="og:image" content="https://adhin.vercel.app/assets/moflix.jpg" />
+
         <title>Adhin Alifarchan - My Works</title>
         <meta name="description" content="Welcome to Adhin's page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
